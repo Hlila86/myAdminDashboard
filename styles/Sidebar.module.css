@@ -1,5 +1,53 @@
 .container{
-    background-color: aquamarine;
+    background-color: #fff;
     width: 200px;
-    height: calc(100vh - 80px);
+    height: 100%;
+    position: fixed;
+    box-shadow: 3px 0px 6px 0px rgba(246, 246, 246, 0.75);
+    padding: 10px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.wrapper ul li{
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.wrapper ul li:hover{
+  color: rgb(13, 64, 109) ;
+  font-size: 22px;
+  transition: 0.3s;
+  
+}
+
+
+@media screen and (max-width:680px) {
+
+    .container{
+        width: 50px;
+    }
+
+    .links{
+        opacity: 0;
+    }
+    
+    .logo h2{
+        opacity: 0;
+    }
 }
