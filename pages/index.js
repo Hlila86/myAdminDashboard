@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/componements/Navbar'
 import Sidebar from '@/componements/Sidebar'
+import Content from '@/componements/Content'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,10 +21,12 @@ export default function Home() {
            
         
 
-      <Navbar />
+      
       <Sidebar />
 
-      
+      <Navbar />
+
+      <Content />
        
      
     </>

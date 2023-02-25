@@ -50,4 +50,8 @@
     .logo h2{
         opacity: 0;
     }
+
+    .wrapper ul{
+        gap: 10px;
+    }
 }
