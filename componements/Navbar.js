@@ -3,15 +3,24 @@ import React from "react";
 import styles from "../styles/Navbar.module.css";
 import { AiFillSetting } from "react-icons/ai";
 import { IoMdNotificationsOutline } from "react-icons/io";
-import {AiOutlineMenuFold} from 'react-icons/ai'
+import {AiOutlineMenuFold , AiOutlineDown} from 'react-icons/ai'
+import {FiSearch} from 'react-icons/fi'
 import Link from "next/link";
 
 const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.left}>
-      
+
+        <div className={styles.menuIcon}>
       <AiOutlineMenuFold />
+        </div>
+        <div className={styles.search}>
+          <FiSearch className={styles.searchIcon}/>
+           <input type='search' className={styles.searchBox} />
+        </div>
+     
+
       
       </div>
       <div className={styles.right}>
@@ -29,7 +38,8 @@ const Navbar = () => {
 
           <li className={styles.profileSection}>
             <Link href='#' className={styles.profileLlink}>
-            <img src="/img/blank-profile.webp" alt="profile-picture" />  
+            <img src="/img/blank-profile.webp" alt="profile-picture" /> 
+            <AiOutlineDown /> 
             </Link>
          
           </li>

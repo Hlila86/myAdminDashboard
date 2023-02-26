@@ -7,10 +7,22 @@ import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 import data from '../utils/data'
+import {AiOutlineHome} from 'react-icons/ai'
+import Orders from './Orders';
 
 const Content = () => {
   return (
     <div className={styles.container}>
+
+      <div className={styles.titles}>
+       <div className={styles.titleLeft}>
+         Dashboard
+       </div>
+       <div className={styles.titleRight}>
+       <AiOutlineHome />
+        / 
+       </div>
+      </div>
       
  <div className={styles.tabWrapper}>
 
@@ -52,6 +64,8 @@ const Content = () => {
 </div>
 
 </div>
+
+<Orders />
 
       </div>
   )

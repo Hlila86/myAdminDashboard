@@ -9,17 +9,36 @@
 }
 
 
-.searchSection{
-    background-color: rgb(176, 176, 232);
-    flex:2
+.left{
+    font-size: 28px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.menuIcon{
+    cursor: pointer;
+}
+
+.searchBox{
+    width: 300px;
+    border: 1px solid #eff0f1;
+    padding: 10px 10px 10px 40px;
+    border-radius: 50px;
+    background-color: #f8f8f9;
 }
 
 
 .search{
-    border: 1px solid #eff0f1;
-    padding: 10px 10px 10px 70px;
-    border-radius: 50px;
-    background-color: #f8f8f9;
+    position: relative;
+}
+
+.searchIcon{
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 10px;
+    color: #b4b4b4;
 }
 
 .notification{
@@ -46,12 +65,25 @@
 
 }
 
+.rightItems li{
+    list-style-type: none;
+    font-size: 28px;
+}
+
 
 .profileSection img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.profileLlink{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 900;
 }
 
 @media screen and (max-width:680px) {
