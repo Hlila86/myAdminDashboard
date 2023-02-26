@@ -5,6 +5,7 @@ import {AiFillDashboard} from 'react-icons/ai'
 import {FaTshirt} from 'react-icons/fa'
 import {MdAttachMoney} from 'react-icons/md'
 import {AiFillSetting} from 'react-icons/ai'
+import {ImTicket} from 'react-icons/im'
 
 const Sidebar = () => {
   return (
@@ -25,10 +26,11 @@ const Sidebar = () => {
           <li>
             <MdAttachMoney />
             <Link href='/' className={styles.links}>Sales</Link></li>
+            <li>
+            <ImTicket />
+            <Link href='/' className={styles.links}>Coupons</Link></li>
           
-          <li>
-            <AiFillSetting />
-            <Link href='/' className={styles.links}>Settings</Link></li>
+          
         </ul>
       </div>
     </div>

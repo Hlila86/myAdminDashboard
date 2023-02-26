@@ -3,3 +3,7 @@ http://themes.pixelstrap.com/bigdeal/admin/index.html
 https://www.youtube.com/watch?v=ksUTGwykp1g
 
 import ckeditor : https://www.youtube.com/watch?v=cevL8_Rsmuc
+
+
+npm install --save chart.js react-chartjs-2
+
