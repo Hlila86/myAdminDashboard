@@ -11,13 +11,34 @@ width: 100%;
 
 .table{
     width: 90%;
-    
+padding: 10px;    
 }
 
 .tableHead{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04AA6D;
+    background-color: #0e1512;
     color: white;
+    padding: 10px;    
+}
+
+.table td{
+    padding: 10px;    
+}
+
+
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    background-color: #00baf2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    padding: 10px;
 }

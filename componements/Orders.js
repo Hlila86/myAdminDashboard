@@ -17,7 +17,7 @@ const Orders = () => {
           <td>15876</td>
           <td>Tshirt Guchi</td>
           <td>Paypal</td>
-          <td>paid</td>
+          <td className={styles.badge}>Paid</td>
           <td>15/02/2023</td>
           <td>$150</td>
         </tr>
@@ -25,7 +25,7 @@ const Orders = () => {
           <td>125</td>
           <td>Tshirt Guchi</td>
           <td>Paypal</td>
-          <td>paid</td>
+          <td className={styles.badge}>Paid</td>
           <td>05/02/2023</td>
           <td>$550</td>
         </tr>
@@ -33,7 +33,7 @@ const Orders = () => {
           <td>5558</td>
           <td>Tshirt Guchi</td>
           <td>Paypal</td>
-          <td>paid</td>
+          <td className={styles.badge}>Paid</td>
           <td>17/02/2023</td>
           <td>$180</td>
         </tr>
